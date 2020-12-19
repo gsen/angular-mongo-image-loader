@@ -1,0 +1,14 @@
+<section class="container">
+    <div class="user-creds">
+        <div class="input">
+            <h1>Username</h1>
+            <input type="text" name="username" id="username" [(ngModel)]="username" />
+            <h1>Password</h1>
+            <input type="password" name="password" id="password" [(ngModel)]="password">
+        </div>
+        <div class="footer">
+            <button type="button" (click)="login()">Login</button>
+        </div>
+    </div>
+    
+</section>
